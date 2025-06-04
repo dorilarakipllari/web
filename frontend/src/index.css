@@ -190,6 +190,24 @@ h3 {
   border-radius: 50%;
   animation: spin 1.2s linear infinite;
 }
+.task .edit {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.task .edit-input {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background-color: transparent;
+  text-align: center;
+  border: 1px solid gray;
+}
 
 @keyframes spin {
   0% {
